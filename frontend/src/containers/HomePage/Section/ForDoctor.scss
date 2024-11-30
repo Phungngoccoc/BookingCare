@@ -1,0 +1,487 @@
+.section-ForDoctor {
+    height: auto;
+    background-color: white;
+    margin-bottom: 90px;
+    max-width: 2600px;
+    margin: 0 auto;
+
+    .ForDoctor-container {
+        height: auto;
+        margin: 0 100px;
+        padding: 30px 0;
+
+        .ForDoctor-header {
+            height: auto;
+            padding: 10px 10px 10px 30px;
+            margin-bottom: 30px;
+
+            .title1 {
+                font-size: 32px;
+                font-weight: 600;
+            }
+
+            .btn-xemthem {
+                float: right;
+                height: 50px;
+                width: 120px;
+                border: none;
+                outline: none;
+                display: block;
+                cursor: pointer;
+                background-color: #daf3f6;
+                font-size: 20px;
+                color: #34929e;
+                border-radius: 10px;
+                font-weight: bold;
+
+                &:hover {
+                    background-color: #f7d800;
+                    color: #fff;
+                }
+            }
+
+        }
+
+        .ForDoctor-body {
+            padding-bottom: 40px;
+            //reset slick slider
+
+            .slick-prev {
+                border: 2px solid #eaeaea !important;
+                z-index: 10000 !important;
+                height: 48px !important;
+                width: 44px !important;
+                background-color: rgba(255, 255, 255, 0.8) !important;
+                left: -20px !important;
+                margin-top: -20px;
+
+                &:hover {
+                    background: #eaeaea !important;
+                }
+            }
+
+            .slick-prev:before,
+            .slick-next:before {
+                font-family: FontAwesome !important;
+                color: red !important;
+                font-size: 20px !important;
+                line-height: 1 !important;
+                color: red !important;
+            }
+
+            .slick-next {
+                border: 2px solid #eaeaea !important;
+                height: 48px !important;
+                width: 46px !important;
+                background-color: rgba(255, 255, 255, 0.8) !important;
+                right: -20px !important;
+                margin-top: -20px;
+
+                &:hover {
+                    background: #eaeaea !important;
+                }
+            }
+
+            .img-custom {
+                display: flex !important;
+                flex-direction: column;
+                padding: 10px 10px 10px 10px;
+                gap: 10px;
+
+                .bg-img1 {
+                    height: 150px;
+                    width: 100%;
+                    background: url("../../../assets/ForDoctor/132939-10x-content-seo-y-te.png");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100%;
+                    margin-bottom: 10px;
+                    border-radius: 20px;
+
+                }
+
+                .bg-img2 {
+                    height: 150px;
+                    width: 100%;
+                    background: url("../../../assets/ForDoctor/175657-cach-su-dung-google-keyword-planner.png");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100%;
+                    margin-bottom: 10px;
+                    border-radius: 20px;
+
+                }
+
+                .bg-img3 {
+                    height: 150px;
+                    width: 100%;
+                    background: url("../../../assets/ForDoctor/172027-module-thiet-ke-website-phong-kham.jpg");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100%;
+                    margin-bottom: 10px;
+                    border-radius: 20px;
+
+                }
+
+                .bg-img4 {
+                    height: 150px;
+                    width: 100%;
+                    background: url("../../../assets/ForDoctor/134643-marketing-phong-kham-1.png");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100%;
+                    margin-bottom: 10px;
+                    border-radius: 20px;
+
+                }
+
+                .bg-img5 {
+                    height: 150px;
+                    width: 100%;
+                    background: url("../../../assets/ForDoctor/172415-sang-kien-giam-thoi-gian-cho-trong-benh-vien.png");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100%;
+                    margin-bottom: 10px;
+
+                    border-radius: 20px;
+                }
+
+                .text-center {
+                    font-size: 19px;
+                    cursor: pointer;
+
+                    display: -webkit-box;
+                    /* Hiển thị dạng hộp linh hoạt */
+                    -webkit-box-orient: vertical;
+                    /* Xếp phần tử theo chiều dọc */
+                    -webkit-line-clamp: 2;
+                    /* Giới hạn số dòng tối đa là 2 */
+                    overflow: hidden;
+                    /* Ẩn phần văn bản vượt quá */
+                    text-overflow: ellipsis;
+                    /* Thêm dấu "..." ở cuối văn bản */
+                    line-height: 1.5;
+                    /* Đặt chiều cao dòng (line-height) */
+                    max-height: 3em;
+
+                    &:hover {
+                        color: rgb(35, 204, 147);
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+
+
+// .cover {
+//     width: 100%;
+//     max-width: 2600px;
+//     height: auto;
+//     margin: 80px auto 0 auto;
+// }
+
+
+@media only screen and (max-width: 1000px) {
+
+    //150%
+    .section-ForDoctor {
+        .ForDoctor-container {
+            .ForDoctor-header {}
+
+            .ForDoctor-body {
+                width: 900px;
+                margin-left: -50px;
+            }
+        }
+    }
+
+    .slick-next {
+        margin-top: 0px;
+    }
+
+    .slick-prev {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    //175%
+    .section-ForDoctor {
+
+        .ForDoctor-container {
+            .ForDoctor-header {
+                width: 700px;
+                display: flex;
+                gap: 80px;
+
+                margin-left: -30px;
+
+                .title1 {
+                    margin-left: 0px;
+                }
+
+                .btn-xemthem {}
+            }
+
+            .ForDoctor-body {
+                width: 760px;
+                margin-left: -50px;
+                margin-top: 40px;
+
+                .img-custom {
+                    height: 250px;
+
+
+                    .bg-img1,
+                    .bg-img2,
+                    .bg-img3,
+                    .bg-img4,
+                    .bg-img5 {
+                        height: 100px !important;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .slick-next {
+        margin-top: -50px;
+    }
+
+    .slick-prev {
+        margin-top: -50px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    //200%
+    .section-ForDoctor {
+        .ForDoctor-container {
+            .ForDoctor-header {
+                margin-left: -80px;
+            }
+
+            .ForDoctor-body {
+                width: 660px;
+                margin-left: -50px;
+
+                .img-custom {
+                    height: auto;
+
+                    .text-center {
+                        margin-top: 0px;
+                    }
+                }
+            }
+        }
+    }
+
+    .slick-next {
+        margin-top: -30px;
+    }
+
+    .slick-prev {
+        margin-top: -30px;
+    }
+
+    .slick-slide {
+        padding: 0 3px; // kc anh slider
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    //250%
+    .section-ForDoctor {
+        .ForDoctor-container {
+            height: auto;
+
+            .ForDoctor-header {
+                display: flex;
+                gap: 100px;
+                width: 550px;
+
+                .title1 {}
+
+                .btn-xemthem {
+                    width: 190px;
+                }
+            }
+
+            .ForDoctor-body {
+                width: 500px;
+
+                margin-left: -50px;
+
+                .img-custom {
+                    height: 250px;
+
+                    .text-center {
+                        margin-top: -10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .slick-next {
+        margin-top: -30px;
+    }
+
+    .slick-prev {
+        margin-top: -30px;
+    }
+
+    .slick-slide {
+        padding: 0 3px; // kc anh slider
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    //300%
+    .section-ForDoctor {
+        height: auto;
+
+        .ForDoctor-container {
+            .ForDoctor-header {
+                display: flex;
+                gap: 50px;
+                width: 450px;
+
+                .title1 {}
+
+                .btn-xemthem {
+                    width: 190px;
+                }
+            }
+
+            .ForDoctor-body {
+                width: 400px;
+                margin-left: -50px;
+
+                .img-custom {
+                    height: 250px;
+                }
+            }
+        }
+    }
+
+    .slick-next {
+        margin-top: -30px;
+    }
+
+    .slick-prev {
+        margin-top: -30px;
+    }
+
+    .slick-slide {
+        padding: 0 3px; // kc anh slider
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    //400%
+    .section-ForDoctor {
+        height: auto;
+
+        .ForDoctor-container {
+            .ForDoctor-header {
+                display: flex;
+                height: auto;
+                gap: 10px;
+                flex-direction: column;
+                width: 350px;
+
+                .title1 {
+                    text-align: center;
+                    margin-left: -15px;
+                    width: 300px;
+                }
+
+                .btn-xemthem {
+                    margin-left: 50px;
+                }
+            }
+
+            .ForDoctor-body {
+                width: 300px;
+                margin-left: -65px;
+
+                .img-custom {
+                    height: 250px;
+                }
+            }
+        }
+    }
+
+    .slick-next {
+        margin-top: -40px;
+    }
+
+    .slick-prev {
+        margin-top: -40px;
+    }
+
+    .slick-slide {
+        padding: 0 3px; // kc anh slider
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    //500%
+    .section-ForDoctor {
+        .ForDoctor-container {
+            .ForDoctor-header {
+                display: flex;
+                height: auto;
+                gap: 10px;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                .title1 {
+                    text-align: center;
+                    margin-left: -110px;
+                    width: 250px;
+                }
+
+                .btn-xemthem {
+                    margin-left: -90px;
+                }
+            }
+
+            .ForDoctor-body {
+                width: 240px;
+                margin-left: -70px;
+
+                .img-custom {
+                    height: 250px;
+                }
+            }
+        }
+    }
+
+    .slick-next {
+        margin-top: -40px;
+    }
+
+    .slick-prev {
+        margin-top: -40px;
+    }
+
+    .slick-slide {
+        padding: 0 3px; // kc anh slider
+    }
+}

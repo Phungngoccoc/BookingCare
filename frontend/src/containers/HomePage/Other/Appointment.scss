@@ -1,0 +1,33 @@
+.appointment-container {
+    max-width: 2600px;
+    margin: 0 auto;
+    height: auto;
+    padding: 0 50px;
+
+    .appoinment-address {
+        margin-top: 20px;
+        font-size: 20px;
+        color: #45c3d2;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .appoinment {
+        padding-top: 30px;
+
+        span {
+            font-size: 29px;
+            font-weight: bold;
+
+            i {
+                cursor: pointer;
+            }
+        }
+
+        p {
+            text-align: center;
+            margin-top: 20px;
+            color: #a94a48;
+            font-size: 20px;
+        }
+    }
+}

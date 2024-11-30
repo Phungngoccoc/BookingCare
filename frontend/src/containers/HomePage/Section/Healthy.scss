@@ -1,0 +1,454 @@
+.section-Healthy {
+    height: auto;
+    background-color: white;
+    margin-bottom: 90px;
+    max-width: 2600px;
+    margin: 0 auto;
+
+    .Healthy-container {
+        height: 100%;
+        margin: 0 100px;
+        padding: 30px 0;
+
+        .Healthy-header {
+            height: 60px;
+            padding: 10px 10px 10px 30px;
+            margin-bottom: 30px;
+
+            .title1 {
+                font-size: 32px;
+                font-weight: 600;
+            }
+
+            .btn-xemthem {
+                float: right;
+                height: 50px;
+                width: 120px;
+                border: none;
+                outline: none;
+                display: block;
+                cursor: pointer;
+                background-color: #daf3f6;
+                font-size: 20px;
+                color: #34929e;
+                border-radius: 10px;
+                font-weight: bold;
+
+                &:hover {
+                    background-color: #f7d800;
+                    color: #fff;
+                }
+            }
+
+        }
+
+        .Healthy-body {
+            padding-bottom: 40px;
+
+            //reset slick slider
+
+            .slick-prev {
+                border: 2px solid #eaeaea !important;
+                z-index: 10000 !important;
+                height: 48px !important;
+                width: 44px !important;
+                background-color: rgba(255, 255, 255, 0.8) !important;
+                left: -20px !important;
+                margin-top: -30px;
+
+                &:hover {
+                    background: #eaeaea !important;
+                }
+            }
+
+            .slick-prev:before,
+            .slick-next:before {
+                font-family: FontAwesome !important;
+                color: red !important;
+                font-size: 20px !important;
+                line-height: 1 !important;
+                color: red !important;
+            }
+
+            .slick-next {
+                border: 2px solid #eaeaea !important;
+                height: 48px !important;
+                width: 46px !important;
+                background-color: rgba(255, 255, 255, 0.8) !important;
+                right: -20px !important;
+                margin-top: -30px;
+
+                &:hover {
+                    background: #eaeaea !important;
+                }
+            }
+
+            .img-custom {
+                display: flex !important;
+                flex-direction: column;
+                padding: 10px 10px 10px 10px;
+                gap: 10px;
+
+                .bg-img1 {
+                    height: 150px;
+                    width: 100%;
+                    background: url("../../../assets/Healthy/083305-dieu-tri-benh-tang-huyet-ap.png");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100%;
+                    margin-bottom: 10px;
+                    border-radius: 20px;
+                }
+
+                .bg-img2 {
+                    height: 150px;
+                    width: 100%;
+                    background: url("../../../assets/Healthy/114328-tre-sot-tren-38-do-co-nen-uong-ha-sot.jpg");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100%;
+                    margin-bottom: 10px;
+                    border-radius: 20px;
+                }
+
+                .bg-img3 {
+                    height: 150px;
+                    width: 100%;
+                    background: url("../../../assets/Healthy/094906-benh-mua-mua.png");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100%;
+                    margin-bottom: 10px;
+                    border-radius: 20px;
+                }
+
+                .bg-img4 {
+                    height: 150px;
+                    width: 100%;
+                    background: url("../../../assets/Healthy/145406-rang--khon-dang-moc-4.png");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100%;
+                    margin-bottom: 10px;
+                    border-radius: 20px;
+                }
+
+                .bg-img5 {
+                    height: 150px;
+                    width: 100%;
+                    background: url("../../../assets/Healthy/204258-dieu-can-biet-ve-rang-khon.png");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100%;
+                    margin-bottom: 10px;
+                    border-radius: 20px;
+                }
+
+                .text-center {
+                    font-size: 19px;
+                    cursor: pointer;
+
+                    display: -webkit-box;
+                    /* Hiển thị dạng hộp linh hoạt */
+                    -webkit-box-orient: vertical;
+                    /* Xếp phần tử theo chiều dọc */
+                    -webkit-line-clamp: 2;
+                    /* Giới hạn số dòng tối đa là 2 */
+                    overflow: hidden;
+                    /* Ẩn phần văn bản vượt quá */
+                    text-overflow: ellipsis;
+                    /* Thêm dấu "..." ở cuối văn bản */
+                    line-height: 1.5;
+                    /* Đặt chiều cao dòng (line-height) */
+                    max-height: 3em;
+
+                    &:hover {
+                        color: rgb(35, 204, 147);
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+.slick-disabled {
+    display: none !important;
+}
+
+// .cover {
+//     width: 100%;
+//     max-width: 2600px;
+//     height: auto;
+//     margin: 80px auto 0 auto;
+// }
+
+
+@media only screen and (max-width: 1000px) {
+
+    //150%
+    .section-Healthy {
+        .Healthy-container {
+            .Healthy-header {}
+
+            .Healthy-body {
+                width: 900px;
+                margin-left: -50px;
+
+                .slick-next {
+                    margin-top: -20px;
+                }
+
+                .slick-prev {
+                    margin-top: -20px;
+                }
+            }
+        }
+    }
+
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    //175%
+    .section-Healthy {
+
+        .Healthy-container {
+            .Healthy-header {}
+
+            .Healthy-body {
+                width: 760px;
+                margin-left: -50px;
+
+                .img-custom {
+                    height: 250px;
+                }
+            }
+        }
+    }
+
+    .slick-next {
+        margin-top: 20px;
+    }
+
+    .slick-prev {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    //200%
+    .section-Healthy {
+        .Healthy-container {
+            .Healthy-header {}
+
+            .Healthy-body {
+                width: 660px;
+                margin-left: -50px;
+
+                .img-custom {
+                    height: auto;
+
+                    .text-center {
+                        margin-top: 0px;
+                    }
+                }
+            }
+        }
+    }
+
+    .slick-next {
+        margin-top: 20px;
+    }
+
+    .slick-prev {
+        margin-top: 20px;
+    }
+
+    .slick-slide {
+        padding: 0 3px; // kc anh slider
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    //250%
+    .section-Healthy {
+        .Healthy-container {
+            height: auto;
+
+            .Healthy-header {
+
+                .title1 {
+                    margin-left: -70px;
+                }
+
+                .btn-xemthem {
+                    margin-right: -60px;
+                }
+            }
+
+            .Healthy-body {
+                width: 500px;
+
+                margin-left: -50px;
+
+                .img-custom {
+                    height: 250px;
+
+                    .text-center {
+                        margin-top: -10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .slick-next {
+        margin-top: 20px;
+    }
+
+    .slick-prev {
+        margin-top: 20px;
+    }
+
+    .slick-slide {
+        padding: 0 3px; // kc anh slider
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    //300%
+    .section-Healthy {
+        height: auto;
+
+        .Healthy-container {
+            .Healthy-header {
+                display: flex;
+                height: auto;
+                gap: 5px;
+            }
+
+            .Healthy-body {
+                width: 400px;
+                margin-left: -50px;
+
+                .img-custom {
+                    height: 250px;
+                }
+            }
+        }
+    }
+
+    .slick-next {
+        margin-top: 20px;
+    }
+
+    .slick-prev {
+        margin-top: 20px;
+    }
+
+    .slick-slide {
+        padding: 0 3px; // kc anh slider
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    //400%
+    .section-Healthy {
+        height: auto;
+
+        .Healthy-container {
+            .Healthy-header {
+                display: flex;
+                height: auto;
+                gap: 10px;
+                flex-direction: column;
+
+                .title1 {
+                    white-space: nowrap;
+                    margin-left: -90px;
+                }
+
+                .btn-xemthem {
+                    width: 200px;
+                    margin-left: -40px;
+                }
+            }
+
+            .Healthy-body {
+                width: 300px;
+                margin-left: -65px;
+
+                .img-custom {
+                    height: 250px;
+                }
+            }
+        }
+    }
+
+    .slick-next {
+        margin-top: 20px;
+    }
+
+    .slick-prev {
+        margin-top: 20px;
+    }
+
+    .slick-slide {
+        padding: 0 3px; // kc anh slider
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    //500%
+    .section-Healthy {
+        .Healthy-container {
+            .Healthy-header {
+                display: flex;
+                height: auto;
+                gap: 10px;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                .title1 {
+                    margin-left: -20px;
+                    white-space: nowrap;
+                }
+
+                .btn-xemthem {
+                    width: 200px;
+                    margin-left: -80px;
+                }
+            }
+
+            .Healthy-body {
+                width: 240px;
+                margin-left: -70px;
+
+                .img-custom {
+                    height: 250px;
+                }
+            }
+        }
+    }
+
+    .slick-next {
+        margin-top: 20px;
+    }
+
+    .slick-prev {
+        margin-top: 20px;
+    }
+
+    .slick-slide {
+        padding: 0 3px; // kc anh slider
+    }
+}

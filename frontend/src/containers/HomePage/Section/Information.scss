@@ -1,0 +1,309 @@
+.section-Informaion {
+    width: 1500;
+    height: auto;
+    background-color: #efefef;
+    padding: 40px 0;
+    padding-left: 100px;
+    padding-right: 30px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    max-width: 2600px;
+    margin: 0 auto;
+
+    .inf1 {
+        width: 900px;
+
+
+        label {
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .inf-content {
+            margin: 10px 0;
+            font-size: 25px;
+
+            i {
+                margin-right: 10px;
+            }
+
+            span {
+                a {
+                    color: black;
+                }
+            }
+        }
+
+        .check {
+            display: flex;
+
+            .check1 {
+                width: 130px;
+                height: 40px;
+                background-image: url("../../../assets/Information/bo-cong-thuong.svg");
+                background-repeat: no-repeat;
+            }
+        }
+    }
+
+    .inf2 {
+        font-size: 25px;
+        width: 300px;
+
+
+        .icon {
+            background-image: url("../../../assets/logo.svg");
+            width: 200px;
+            height: 70px;
+            background-repeat: no-repeat;
+
+        }
+
+        .inf-content2 {
+            margin: 10px 0;
+
+            a {
+                text-decoration: none;
+                color: #45c3d2;
+            }
+        }
+    }
+
+    .inf3 {
+        width: 900px;
+        margin-left: 0px;
+        font-size: 25px;
+
+
+        label {
+            font-weight: bold;
+        }
+
+        .content3 {
+            display: flex;
+            margin: 10px 0;
+
+            .content3-img0 {
+                width: 90px;
+                height: 90px;
+                background-image: url("../../../assets/Information/093706-hellodoctorlogo.png");
+                margin-right: 10px;
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+
+            .content3-img1 {
+                width: 90px;
+                height: 90px;
+                background-image: url("../../../assets/Information/082316-logo-bernard.png");
+                margin-right: 10px;
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+
+            .content3-img2 {
+                width: 90px;
+                height: 90px;
+                background-image: url("../../../assets/Information/064252-doctor-check-2.png");
+                margin-right: 10px;
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
+
+// .cover {
+//     width: 100%;
+//     max-width: 2600px;
+//     height: auto;
+//     margin: 0 auto 0 auto;
+// }
+
+@media only screen and (max-width: 900px) {
+
+    //175%
+    .section-Informaion {
+        flex-direction: column;
+        padding-left: 0px;
+
+        justify-content: left;
+        gap: 10px;
+
+        .inf1 {
+
+            width: 700px;
+            order: 2;
+        }
+
+        .inf2 {
+
+            width: 700px;
+            order: 1;
+        }
+
+        .inf3 {
+
+            width: 700px;
+            order: 3;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    //200%
+    .section-Informaion {
+        flex-direction: column;
+        padding-left: 0px;
+
+        justify-content: left;
+        gap: 10px;
+
+        .inf1 {
+
+            width: 600px;
+            order: 2;
+        }
+
+        .inf2 {
+
+            order: 1;
+            width: 600px;
+        }
+
+        .inf3 {
+
+            width: 600px;
+            order: 3;
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    //250%
+    .section-Informaion {
+        flex-direction: column;
+        padding-left: 0px;
+
+        justify-content: left;
+        gap: 10px;
+
+        .inf1 {
+
+            width: 500px;
+            order: 2;
+        }
+
+        .inf2 {
+
+            order: 1;
+            width: 500px;
+        }
+
+        .inf3 {
+
+            width: 500px;
+            order: 3;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    //300%
+    .section-Informaion {
+        flex-direction: column;
+        padding-left: 0px;
+
+        justify-content: left;
+        gap: 10px;
+
+        .inf1 {
+
+            width: 450px;
+            order: 2;
+        }
+
+        .inf2 {
+
+            order: 1;
+            width: 450px;
+        }
+
+        .inf3 {
+
+            width: 450px;
+            order: 3;
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    //400%
+    .section-Informaion {
+        flex-direction: column;
+        padding-left: 0px;
+
+        justify-content: left;
+        gap: 10px;
+
+        .inf1 {
+
+            width: 350px;
+            order: 2;
+            margin-left: 20px;
+        }
+
+        .inf2 {
+
+            order: 1;
+            width: 350px;
+            margin-left: 20px;
+        }
+
+        .inf3 {
+
+            width: 350px;
+            order: 3;
+            margin-left: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    //500%
+    .section-Informaion {
+        flex-direction: column;
+        padding-left: 0px;
+
+        justify-content: left;
+        gap: 10px;
+
+        .inf1 {
+
+            width: 250px;
+            order: 2;
+            margin-left: 00px;
+        }
+
+        .inf2 {
+
+            order: 1;
+            width: 250px;
+            margin-left: 00px;
+        }
+
+        .inf3 {
+
+            width: 250px;
+            order: 3;
+            margin-left: 00px;
+        }
+    }
+}

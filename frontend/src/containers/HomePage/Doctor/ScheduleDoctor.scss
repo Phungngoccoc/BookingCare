@@ -1,0 +1,66 @@
+.schedule {
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 20px;
+    height: auto;
+    padding-right: -100px;
+    padding-bottom: 20px;
+    border-right: 1px solid #ddd;
+    margin-bottom: 20px;
+
+    select {
+        width: auto;
+        height: 30px;
+        border: none;
+        outline: none;
+        color: #337ab7;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    span {
+        padding-top: 20px;
+    }
+
+    .calendar {
+        margin-top: 20px;
+
+        i {
+            margin-right: 10px;
+        }
+
+        span {
+            font-weight: 600;
+            font-size: 18px;
+            opacity: 0.8;
+        }
+    }
+
+    .time {
+        padding-top: 20px;
+
+        // display: flex;
+        button {
+            border: 3px solid transparent;
+            padding: 10px 20px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        button:hover {
+            border: 3px solid rgb(75, 225, 225);
+        }
+    }
+
+    .choose {
+        margin-top: 10px;
+
+        span {
+            opacity: 0.7;
+
+            i {
+                opacity: 1;
+            }
+        }
+    }
+}

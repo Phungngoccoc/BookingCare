@@ -1,0 +1,382 @@
+.section-About {
+    height: 100%;
+    background-image: url("../../../assets/Healthy/bg-about.png");
+    max-width: 2600px;
+    margin: 0 auto;
+
+    .About-container {
+        height: 100%;
+        margin: 0 100px;
+        padding: 30px 0;
+
+        .About-header {
+            height: 60px;
+            padding: 10px 10px 10px 30px;
+            text-align: center;
+
+            .title1 {
+                font-size: 32px;
+                font-weight: 600;
+            }
+
+        }
+
+        .About-body {
+            display: flex;
+            gap: 100px;
+            align-items: center;
+            justify-content: center;
+
+            .content-left {
+                width: 50%;
+                padding-top: 35px;
+
+                iframe {
+                    width: 100%;
+                    height: 320px;
+                }
+            }
+
+            .content-right {
+                width: 30%;
+                padding-top: 45px;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                .child-content {
+                    display: flex;
+                    gap: 20px;
+
+                    .cover-bg {
+                        width: 300px;
+                        height: 50px;
+                        background-color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding-top: 20px;
+                        border-radius: 10px;
+
+                        .img1 {
+                            background: url("../../../assets/About/vtv1.png");
+                            width: 100px;
+                            height: 50px;
+                            background-repeat: no-repeat;
+                            background-size: 100%;
+                        }
+
+                        .img2 {
+                            background: url("../../../assets/About/165432-vtcnewslogosvg.png");
+                            width: 100px;
+                            height: 50px;
+                            background-repeat: no-repeat;
+                            background-size: 100%;
+                        }
+
+                        .img3 {
+                            background: url("../../../assets/About/110757-dantrilogo.png");
+                            width: 100px;
+                            height: 50px;
+                            background-repeat: no-repeat;
+                            background-size: 100%;
+                        }
+
+                        .img4 {
+                            background: url("../../../assets/About/cuc-cong-nghe-thong-tin-bo-y-te-2.png");
+                            width: 100px;
+                            height: 50px;
+                            background-repeat: no-repeat;
+                            background-size: 100%;
+                        }
+
+                        .img5 {
+                            background: url("../../../assets/About/165432-vtcnewslogosvg.png");
+                            width: 100px;
+                            height: 50px;
+                            background-repeat: no-repeat;
+                            background-size: 100%;
+                        }
+
+                        .img6 {
+                            background: url("../../../assets/About/infonet.png");
+                            width: 100px;
+                            height: 50px;
+                            background-repeat: no-repeat;
+                            background-size: 100%;
+                        }
+
+                        .img7 {
+                            background: url("../../../assets/About/vnexpress.png");
+                            width: 100px;
+                            height: 50px;
+                            background-repeat: no-repeat;
+                            background-size: 100%;
+                        }
+
+                        .img8 {
+                            background: url("../../../assets/About/vtv1\ \(1\).png");
+                            width: 100px;
+                            height: 50px;
+                            background-repeat: no-repeat;
+                            background-size: 100%;
+                        }
+                    }
+                }
+
+
+            }
+        }
+
+
+    }
+}
+
+
+// .cover {
+// width: 100%;
+// max-width: 2600px;
+// height: auto;
+// margin: 80px auto 0 auto;
+// // }
+
+
+@media only screen and (max-width: 1000px) {
+
+    //150%
+    .section-About {
+        .About-container {
+            .About-header {}
+
+            .About-body {
+                gap: 10px;
+
+                .content-left {
+                    width: 550px;
+                    margin-top: 40px;
+                    margin-left: -90px;
+                    margin-right: 50px;
+                }
+
+                .content-right {
+                    margin-top: 60px;
+                    padding-top: 0;
+
+                    .child-content {
+                        gap: 50px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    //175%
+    .section-About {
+        .About-container {
+            .About-header {}
+
+            .About-body {
+                gap: 10px;
+
+                .content-left {
+                    width: 450px;
+                    margin-top: 40px;
+                    margin-left: -90px;
+                    margin-right: 30px;
+                }
+
+                .content-right {
+                    margin-top: 60px;
+                    padding-top: 0;
+
+                    .child-content {
+                        gap: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    //200%
+    .section-About {
+        .About-container {
+            .About-header {}
+
+            .About-body {
+                gap: 10px;
+
+                .content-left {
+                    width: 450px;
+                    margin-top: 40px;
+                    margin-left: -90px;
+                }
+
+                .content-right {
+                    margin-top: 40px;
+                    padding-top: 0;
+
+                    .child-content {
+                        gap: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    //250%
+    .section-About {
+        .About-container {
+            .About-header {}
+
+            .About-body {
+                flex-direction: column;
+                gap: 10px;
+
+                .content-left {
+                    width: 500px;
+                    margin-top: 40px;
+                    margin-left: 30px;
+                }
+
+                .content-right {
+
+                    width: 500px;
+                    gap: 10px;
+                    padding-top: 0;
+
+                    .child-content {
+
+                        gap: 100px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    //300%
+    .section-About {
+        .About-container {
+            .About-header {
+
+                width: 400px;
+                margin-left: -60px;
+                height: auto;
+                margin-bottom: 0;
+
+                .title1 {}
+            }
+
+            .About-body {
+
+                .content-left {
+                    width: 450px;
+                    margin-top: 0px;
+                }
+
+                .content-right {
+
+                    width: 450px;
+                    gap: 10px;
+                    padding-top: 0;
+
+                    .child-content {
+
+                        gap: 100px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    //400%
+    .section-About {
+        .About-container {
+            .About-header {
+
+                width: 400px;
+                margin-left: -120px;
+                height: auto;
+                margin-bottom: 0;
+
+                .title1 {}
+            }
+
+            .About-body {
+
+                .content-left {
+                    width: 350px;
+                    margin-top: 0px;
+                }
+
+                .content-right {
+
+                    width: 350px;
+                    gap: 10px;
+                    padding-top: 0;
+
+                    .child-content {
+
+                        gap: 100px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    //500%
+    .section-About {
+        .About-container {
+            .About-header {
+
+                width: 320px;
+                margin-left: -120px;
+                height: auto;
+                margin-bottom: 0;
+
+                .title1 {}
+            }
+
+            .About-body {
+
+                .content-left {
+                    width: 290px;
+                    margin-top: 0px;
+                }
+
+                .content-right {
+
+                    width: 290px;
+                    gap: 10px;
+                    padding-top: 0;
+
+                    .child-content {
+
+                        gap: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+}

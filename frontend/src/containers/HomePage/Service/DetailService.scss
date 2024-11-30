@@ -1,0 +1,39 @@
+.detail-service-container {
+    max-width: 2600px;
+    margin: 0 auto;
+    height: auto;
+    padding: 0 50px;
+
+    .detail-service-address {
+        margin-top: 20px;
+        font-size: 20px;
+        color: #45c3d2;
+    }
+
+    .detail-service {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        justify-items: center;
+        // align-items: center;
+        margin: 20px 0;
+
+
+        .child-service {
+            width: auto;
+
+            img {
+                width: 300px;
+            }
+
+            .service-name {
+                width: fit-content;
+                font-size: 22px;
+                font-weight: bold;
+                margin-top: 20px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,63 @@
+.container{
+
+
+    .inputUser{
+        display: flex;
+
+        .email{
+            width: 1000000px;
+            margin-right: 20px;
+        }
+        .password{
+            width: 50%;
+        }
+
+        .fullname{
+            width: 50%;
+            margin-right: 20px;
+            margin-top: 20px;
+        }
+        .address{
+            margin-top: 20px;
+            width: 50%;
+        }
+
+        .phonenumber{
+            width: 100%;
+            margin-right: 20px;
+            margin-top: 20px;
+        }
+        .gender{
+            margin-top: 15px;
+            margin-right: 20px;
+            width: 150px;
+        }
+        .roleId{
+            margin-top: 15px;
+            width: 150px;
+        }
+    }
+}
+
+.btn-create{
+    width: 120px;
+    height: 30px;
+
+}
+
+.btn-cancel{
+    width: 80px;
+    height: 30px;
+}
+
+.modal-content{
+
+    .modal-header{
+        button{
+            background-color: transparent !important;
+            color: white;
+            border: none;
+            font-size: 25px;
+        }
+    }
+}

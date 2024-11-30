@@ -1,0 +1,400 @@
+.section-FamousNews {
+    height: auto;
+    background-color: white;
+    margin-bottom: 70px;
+    max-width: 2600px;
+    margin: 0 auto;
+
+    .FamousNews-container {
+        height: 100%;
+        margin: 0 100px;
+        padding: 30px 0;
+
+        .FamousNews-header {
+            height: 60px;
+            padding: 10px 10px 10px 30px;
+
+            .title1 {
+                font-size: 32px;
+                font-weight: 600;
+            }
+
+            .btn-xemthem {
+                float: right;
+                height: 50px;
+                width: 120px;
+                border: none;
+                outline: none;
+                display: block;
+                cursor: pointer;
+                background-color: #daf3f6;
+                font-size: 20px;
+                color: #34929e;
+                border-radius: 10px;
+                font-weight: bold;
+
+                &:hover {
+                    background-color: #f7d800;
+                    color: #fff;
+                }
+            }
+
+        }
+
+        .FamousNews-body {
+
+            //reset slick slider
+
+            .slick-prev {
+                border: 2px solid #eaeaea !important;
+                z-index: 10000 !important;
+                height: 48px !important;
+                width: 44px !important;
+                background-color: rgba(255, 255, 255, 0.8) !important;
+                left: -20px !important;
+                border-radius: 12px;
+
+                &:hover {
+                    background: #eaeaea !important;
+                }
+            }
+
+            .slick-prev:before,
+            .slick-next:before {
+                font-family: FontAwesome !important;
+                color: red !important;
+                font-size: 20px !important;
+                line-height: 1 !important;
+            }
+
+            .slick-next {
+                border: 2px solid #eaeaea !important;
+                height: 48px !important;
+                width: 46px !important;
+                background-color: rgba(255, 255, 255, 0.8) !important;
+                right: -20px !important;
+                border-radius: 12px;
+                color: green;
+
+                &:hover {
+                    background: #eaeaea !important;
+                }
+            }
+
+            .slick-slide {
+                padding: 0 10px; // kc anh slider
+            }
+
+            .img-custom {
+                display: flex;
+                padding: 10px 10px 10px 10px;
+                margin-top: 40px;
+                border-radius: 20px;
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                margin-right: 15px;
+                height: 250px;
+
+                .text-center {
+                    font-size: 19px;
+                    cursor: pointer;
+
+                    display: -webkit-box;
+                    /* Hiển thị dạng hộp linh hoạt */
+                    -webkit-box-orient: vertical;
+                    /* Xếp phần tử theo chiều dọc */
+                    -webkit-line-clamp: 2;
+                    /* Giới hạn số dòng tối đa là 2 */
+                    overflow: hidden;
+                    /* Ẩn phần văn bản vượt quá */
+                    text-overflow: ellipsis;
+                    /* Thêm dấu "..." ở cuối văn bản */
+                    line-height: 1.5;
+                    /* Đặt chiều cao dòng (line-height) */
+                    max-height: 3em;
+
+                    &:hover {
+                        color: rgb(35, 204, 147);
+                    }
+                }
+
+                .bg-img1 {
+                    height: 150px;
+                    width: 100%;
+                    background: url("https://cdn.bookingcare.vn/fo/w640/2023/07/25/162624-mo-mau-cao.png");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100%;
+                    margin-bottom: 10px;
+                    border-radius: 20px;
+                }
+
+                .bg-img2 {
+                    height: 150px;
+                    width: 100%;
+                    background: url("https://cdn.bookingcare.vn/fo/w640/2023/08/11/100438-thuc-don-7-ngay.jpg");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100%;
+                    margin-bottom: 10px;
+                    border-radius: 20px;
+                }
+
+                .bg-img3 {
+                    height: 150px;
+                    width: 100%;
+                    background: url("https://cdn.bookingcare.vn/fo/w640/2023/08/05/090054-cach-chua-benh-tieu-duong.png");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100%;
+                    margin-bottom: 10px;
+                    border-radius: 20px;
+                }
+
+                .bg-img4 {
+                    height: 150px;
+                    width: 100%;
+                    background: url("https://cdn.bookingcare.vn/fo/w640/2023/08/05/090054-cach-chua-benh-tieu-duong.png");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100%;
+                    margin-bottom: 10px;
+                    border-radius: 20px;
+                }
+
+                .bg-img5 {
+                    height: 150px;
+                    width: 100%;
+                    background: url("https://cdn.bookingcare.vn/fo/w640/2023/08/05/090054-cach-chua-benh-tieu-duong.png");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 90%;
+                    margin-bottom: 10px;
+                    border-radius: 20px;
+                }
+
+                .bg-img6 {
+                    height: 150px;
+                    width: 100%;
+                    background: url("https://cdn.bookingcare.vn/fo/w640/2023/08/05/090054-cach-chua-benh-tieu-duong.png");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 90%;
+                    margin-bottom: 10px;
+                    border-radius: 20px;
+                }
+            }
+        }
+
+
+    }
+}
+
+
+
+
+// .cover {
+//     width: 100%;
+//     max-width: 2600px;
+//     height: auto;
+//     margin: 80px auto 0 auto;
+// }
+
+@media only screen and (max-width: 1000px) {
+
+    //150%
+    .section-FamousNews {
+        .FamousNews-container {
+            .FamousNews-header {}
+
+            .FamousNews-body {
+                width: 900px;
+                margin-left: -50px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    //175%
+    .section-FamousNews {
+
+        .FamousNews-container {
+            .FamousNews-header {}
+
+            .FamousNews-body {
+                width: 760px;
+                margin-left: -50px;
+
+                .slick-next {
+                    margin-top: 20px;
+                }
+
+                .slick-prev {
+                    margin-top: 20px;
+                }
+
+                .img-custom {
+                    height: 250px;
+                }
+            }
+        }
+    }
+
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    //200%
+    .section-FamousNews {
+        .FamousNews-container {
+            .FamousNews-header {}
+
+            .FamousNews-body {
+                width: 660px;
+                margin-left: -50px;
+
+                .img-custom {
+                    height: auto;
+
+                    .text-center {
+                        margin-top: 0px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    //250%
+    .section-FamousNews {
+        .FamousNews-container {
+            height: auto;
+
+            .FamousNews-header {
+
+                .title1 {
+                    margin-left: -70px;
+                }
+
+                .btn-xemthem {
+                    margin-right: -60px;
+                }
+            }
+
+            .FamousNews-body {
+                width: 500px;
+
+                margin-left: -50px;
+
+                .img-custom {
+                    height: 250px;
+
+                    .text-center {
+                        margin-top: -10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    //300%
+    .section-FamousNews {
+        .FamousNews-container {
+            .FamousNews-header {
+                display: flex;
+                height: auto;
+                gap: 85px;
+            }
+
+            .FamousNews-body {
+                width: 400px;
+                margin-left: -50px;
+
+                .img-custom {
+                    height: 250px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    //400%
+    .section-FamousNews {
+        height: auto;
+
+        .FamousNews-container {
+            .FamousNews-header {
+                display: flex;
+                height: auto;
+                gap: 10px;
+                flex-direction: column;
+
+                .title1 {
+                    white-space: nowrap;
+                    margin-left: -40px;
+                }
+
+                .btn-xemthem {
+                    width: 200px;
+                    margin-left: -40px;
+                }
+            }
+
+            .FamousNews-body {
+                width: 300px;
+                margin-left: -65px;
+
+                .img-custom {
+                    height: 250px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    //500%
+    .section-FamousNews {
+        .FamousNews-container {
+            .FamousNews-header {
+                display: flex;
+                height: auto;
+                gap: 10px;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                .title1 {
+                    margin-left: -20px;
+                    white-space: nowrap;
+                }
+
+                .btn-xemthem {
+                    width: 200px;
+                    margin-left: -80px;
+                }
+            }
+
+            .FamousNews-body {
+                width: 240px;
+                margin-left: -70px;
+
+                .img-custom {
+                    height: 250px;
+                }
+            }
+        }
+    }
+
+}

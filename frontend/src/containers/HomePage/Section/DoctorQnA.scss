@@ -1,0 +1,390 @@
+.section-DoctorQnA {
+    height: 380px;
+    background-color: white;
+    margin-bottom: 40px;
+    max-width: 2600px;
+    margin: 0 auto;
+
+    .DoctorQnA-container {
+        height: 100%;
+        margin: 0 100px;
+        padding: 30px 0;
+
+        .DoctorQnA-header {
+            height: 60px;
+            padding: 10px 10px 10px 30px;
+
+            .title1 {
+                font-size: 32px;
+                font-weight: 600;
+            }
+
+
+        }
+
+        .DoctorQnA-body {
+            display: flex;
+            align-items: center;
+            justify-content: left;
+
+            .img-custom {
+                display: flex;
+                flex-direction: column;
+                padding: 10px 10px 10px 10px;
+                margin-top: 40px;
+                border-radius: 20px;
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                margin-right: 15px;
+                justify-content: left;
+                align-items: center;
+                width: 420px;
+                height: 250px;
+
+                .bg-img1 {
+                    height: 150px;
+                    width: 100%;
+                    background: url("../../../assets/DoctorQnA/141028-hoidapcongdong.jpeg");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100%;
+                    margin-bottom: 10px;
+                    border-radius: 20px;
+                    margin-bottom: 30px;
+                }
+
+                .bg-img2 {
+                    height: 150px;
+                    width: 100%;
+                    background: url("../../../assets/DoctorQnA/150322-z5375466237591689132201a679526eaab9274b8cd39a9.jpg");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100%;
+                    margin-bottom: 10px;
+                    border-radius: 20px;
+                    margin-bottom: 30px;
+                }
+
+
+            }
+        }
+
+
+    }
+}
+
+
+//reset slick slider
+
+.slick-prev {
+    border: 2px solid #eaeaea !important;
+    z-index: 10000 !important;
+    height: 48px !important;
+    width: 44px !important;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    left: -20px !important;
+    border-radius: 12px;
+
+    &:hover {
+        background: #eaeaea !important;
+    }
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: FontAwesome !important;
+    color: red !important;
+    font-size: 20px !important;
+    line-height: 1 !important;
+}
+
+.slick-next {
+    border: 2px solid #eaeaea !important;
+    height: 48px !important;
+    width: 46px !important;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    right: -20px !important;
+    border-radius: 12px;
+    color: green;
+
+    &:hover {
+        background: #eaeaea !important;
+    }
+}
+
+.slick-slide {
+    padding: 0 10px; // kc anh slider
+}
+
+// .cover {
+//     width: 100%;
+//     max-width: 2600px;
+//     height: auto;
+//     margin: 80px auto 0 auto;
+// }
+
+
+@media only screen and (max-width: 1000px) {
+
+    //150%
+    .section-DoctorQnA {
+        .DoctorQnA-container {
+            .DoctorQnA-header {}
+
+            .DoctorQnA-body {
+                width: 900px;
+                margin-left: -50px;
+            }
+        }
+    }
+
+    .slick-next {
+        margin-top: 0px;
+    }
+
+    .slick-prev {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    //175%
+    .section-DoctorQnA {
+
+        .DoctorQnA-container {
+            .DoctorQnA-header {}
+
+            .DoctorQnA-body {
+                width: 760px;
+                margin-left: -50px;
+
+                .img-custom {
+                    height: 250px;
+                }
+            }
+        }
+    }
+
+    .slick-next {
+        margin-top: 20px;
+    }
+
+    .slick-prev {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    //200%
+    .section-DoctorQnA {
+        .DoctorQnA-container {
+            .DoctorQnA-header {}
+
+            .DoctorQnA-body {
+                width: 660px;
+                margin-left: -50px;
+
+                .img-custom {
+                    height: auto;
+
+                    .text-center {
+                        margin-top: 0px;
+                    }
+                }
+            }
+        }
+    }
+
+    .slick-next {
+        margin-top: 20px;
+    }
+
+    .slick-prev {
+        margin-top: 20px;
+    }
+
+    .slick-slide {
+        padding: 0 3px; // kc anh slider
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    //250%
+    .section-DoctorQnA {
+        .DoctorQnA-container {
+            height: auto;
+
+            .DoctorQnA-header {
+
+                .title1 {
+                    margin-left: -70px;
+                }
+
+                .btn-xemthem {
+                    margin-right: -60px;
+                }
+            }
+
+            .DoctorQnA-body {
+                width: 500px;
+
+                margin-left: -50px;
+
+                .img-custom {
+                    height: 250px;
+
+                    .text-center {
+                        margin-top: -10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .slick-next {
+        margin-top: 20px;
+    }
+
+    .slick-prev {
+        margin-top: 20px;
+    }
+
+    .slick-slide {
+        padding: 0 3px; // kc anh slider
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    //300%
+    .section-DoctorQnA {
+        height: auto;
+
+        .DoctorQnA-container {
+            .DoctorQnA-header {
+                display: flex;
+                height: auto;
+                gap: 5px;
+            }
+
+            .DoctorQnA-body {
+                width: 400px;
+                margin-left: -50px;
+
+                .img-custom {
+                    height: 200px;
+                }
+            }
+        }
+    }
+
+    .slick-next {
+        margin-top: 20px;
+    }
+
+    .slick-prev {
+        margin-top: 20px;
+    }
+
+    .slick-slide {
+        padding: 0 3px; // kc anh slider
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    //400%
+    .section-DoctorQnA {
+        height: auto;
+
+        .DoctorQnA-container {
+            .DoctorQnA-header {
+                display: flex;
+                height: auto;
+                gap: 10px;
+                flex-direction: column;
+
+                .title1 {
+                    white-space: nowrap;
+                    margin-left: -90px;
+                }
+
+                .btn-xemthem {
+                    width: 200px;
+                    margin-left: -40px;
+                }
+            }
+
+            .DoctorQnA-body {
+                width: 300px;
+                margin-left: -65px;
+
+                .img-custom {
+                    height: 200px;
+                }
+            }
+        }
+    }
+
+    .slick-next {
+        margin-top: 20px;
+    }
+
+    .slick-prev {
+        margin-top: 20px;
+    }
+
+    .slick-slide {
+        padding: 0 3px; // kc anh slider
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    //500%
+    .section-DoctorQnA {
+        .DoctorQnA-container {
+            .DoctorQnA-header {
+                display: flex;
+                height: auto;
+                gap: 10px;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                .title1 {
+                    margin-left: -20px;
+                    white-space: nowrap;
+                }
+
+                .btn-xemthem {
+                    width: 200px;
+                    margin-left: -80px;
+                }
+            }
+
+            .DoctorQnA-body {
+                width: 240px;
+                margin-left: -70px;
+
+                .img-custom {
+                    height: 200px;
+                }
+            }
+        }
+    }
+
+    .slick-next {
+        margin-top: 20px;
+    }
+
+    .slick-prev {
+        margin-top: 20px;
+    }
+
+    .slick-slide {
+        padding: 0 3px; // kc anh slider
+    }
+}

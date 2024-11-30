@@ -1,0 +1,43 @@
+.ListSpecialty-container {
+    padding-left: 50px;
+    max-width: 2600px;
+    margin: 0 auto;
+    height: auto;
+
+    .LS-address {
+        margin-top: 20px;
+        font-size: 20px;
+        color: #45c3d2;
+        // border-bottom: 1px solid #ccc;
+        margin-bottom: 40px;
+    }
+
+    .LS-title {
+        font-size: 23px;
+        color: black;
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+
+    .LS-specialty {
+        display: flex;
+        cursor: pointer;
+        border-bottom: 1px solid #ccc;
+        margin-top: 15px;
+
+        .LS-image {
+            width: 250px;
+            height: 150px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+
+        .LS-name {
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            font-size: 25px;
+        }
+    }
+}
